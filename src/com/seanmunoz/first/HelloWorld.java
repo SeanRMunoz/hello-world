@@ -2,7 +2,7 @@ package com.seanmunoz.first;
 
 public class HelloWorld {
 	/*
-	 * Sean's VERY first Java program.
+	 * My VERY first Java program.
 	 * Now enhanced with useless extra code
 	 * for the purpose of testing Git via Eclipse.
 	 */
