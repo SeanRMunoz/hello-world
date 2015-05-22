@@ -17,16 +17,35 @@ public class HelloWorld {
 	
 	public HelloWorld(String greetingPhrase, String farewellPhrase) {
 		super();
-		this.greetingPhrase = greetingPhrase;
-		this.farewellPhrase = farewellPhrase;
+		setGreetingPhrase(greetingPhrase);
+		setFarewellPhrase(farewellPhrase);
 	}
 
 	private void displayGreeting() {
-		System.out.println(greetingPhrase);
+		System.out.println(getGreetingPhrase());
 	}
 
 	private void displayFarewell() {
-		System.out.println(farewellPhrase);
+		System.out.println(getFarewellPhrase());
+	}
+	
+	/*
+	 * Getters & Setters live below
+	 */
+	public String getGreetingPhrase() {
+		return greetingPhrase;
 	}
 
-} // close class HelloWorld 
+	public void setGreetingPhrase(String greetingPhrase) {
+		this.greetingPhrase = greetingPhrase;
+	}
+
+	public String getFarewellPhrase() {
+		return farewellPhrase;
+	}
+
+	public void setFarewellPhrase(String farewellPhrase) {
+		this.farewellPhrase = farewellPhrase;
+	}
+
+}
