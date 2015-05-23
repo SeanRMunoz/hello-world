@@ -47,5 +47,5 @@ public class HelloWorld {
 	public void setFarewellPhrase(String farewellPhrase) {
 		this.farewellPhrase = farewellPhrase;
 	}
-
-}
+	
+} // close class HelloWorld 
